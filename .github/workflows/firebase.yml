@@ -47,7 +47,7 @@ jobs:
         with:
           name: build
           path: build
-      - name: deploy to Firebase
+      - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
          args: deploy --only hosting
