@@ -42,7 +42,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Dowload Build
+      - name: Download Build
         uses: actions/download-artifact@v2
         with:
           name: build
